@@ -20,7 +20,7 @@ public class interviewQuestion {
     Scanner sc = new Scanner(System.in);
     System.out.println("The size of the array:");
     int size= sc.nextInt(); // input the size of the array
-    int[] numarray = new int[size]; // the array will have 7 elements
+    int[] numarray = new int[size];
     System.out.println("The elements in the array are:");
     for(int i =0; i<numarray.length; i++){
         numarray[i] =sc.nextInt(); // input the elements of the array
